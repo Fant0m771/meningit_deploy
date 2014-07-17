@@ -174,28 +174,6 @@ function meningitis_article_default_panels_mini() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-1c6d22d2-fc46-4de0-aad3-37a6e689932e';
-    $pane->panel = 'one_main';
-    $pane->type = 'block';
-    $pane->subtype = 'block-5';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '<none>',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $pane->uuid = '1c6d22d2-fc46-4de0-aad3-37a6e689932e';
-    $display->content['new-1c6d22d2-fc46-4de0-aad3-37a6e689932e'] = $pane;
-    $display->panels['one_main'][0] = 'new-1c6d22d2-fc46-4de0-aad3-37a6e689932e';
-    $pane = new stdClass();
     $pane->pid = 'new-3e7eeed2-7e67-4cb6-959e-9b1409625ade';
     $pane->panel = 'one_main';
     $pane->type = 'block';
@@ -212,11 +190,33 @@ function meningitis_article_default_panels_mini() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 1;
+    $pane->position = 0;
     $pane->locks = array();
     $pane->uuid = '3e7eeed2-7e67-4cb6-959e-9b1409625ade';
     $display->content['new-3e7eeed2-7e67-4cb6-959e-9b1409625ade'] = $pane;
-    $display->panels['one_main'][1] = 'new-3e7eeed2-7e67-4cb6-959e-9b1409625ade';
+    $display->panels['one_main'][0] = 'new-3e7eeed2-7e67-4cb6-959e-9b1409625ade';
+    $pane = new stdClass();
+    $pane->pid = 'new-1c6d22d2-fc46-4de0-aad3-37a6e689932e';
+    $pane->panel = 'one_main';
+    $pane->type = 'block';
+    $pane->subtype = 'block-5';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '<none>',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = '1c6d22d2-fc46-4de0-aad3-37a6e689932e';
+    $display->content['new-1c6d22d2-fc46-4de0-aad3-37a6e689932e'] = $pane;
+    $display->panels['one_main'][1] = 'new-1c6d22d2-fc46-4de0-aad3-37a6e689932e';
     $pane = new stdClass();
     $pane->pid = 'new-dc1d642f-8cb4-49e3-b3a7-9436e406be08';
     $pane->panel = 'one_main';
