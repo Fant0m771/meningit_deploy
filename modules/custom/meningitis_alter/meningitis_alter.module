@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Custom alters.
+ */
+
+/**
+ * Implements hook_views_pre_render().
+ * @param $view
+ */
+function meningitis_alter_views_pre_render(&$view) {
+
+  switch ($view->name) {
+    case "page_banner_image":
+      // If article have not mobile banner-image add 'mobile-is-empty' class for simple image field
+      if ($view->field['field_image']) {
+        if (isset($view->result[0]->field_field_article_mobile_image) && !count($view->result[0]->field_field_article_mobile_image)) {
+          $view->field['field_image']->options['element_wrapper_class'] = 'mobile-is-empty';
+        }
+      }
+      break;
+  }
+}

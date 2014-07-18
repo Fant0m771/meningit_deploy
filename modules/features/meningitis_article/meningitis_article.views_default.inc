@@ -42,6 +42,17 @@ function meningitis_article_views_default_views() {
     'image_style' => '',
     'image_link' => '',
   );
+  /* Field: Content: Mobile Image */
+  $handler->display->display_options['fields']['field_article_mobile_image']['id'] = 'field_article_mobile_image';
+  $handler->display->display_options['fields']['field_article_mobile_image']['table'] = 'field_data_field_article_mobile_image';
+  $handler->display->display_options['fields']['field_article_mobile_image']['field'] = 'field_article_mobile_image';
+  $handler->display->display_options['fields']['field_article_mobile_image']['label'] = '';
+  $handler->display->display_options['fields']['field_article_mobile_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_article_mobile_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_article_mobile_image']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
   /* Field: Content: Banner body */
   $handler->display->display_options['fields']['field_article_banner_body']['id'] = 'field_article_banner_body';
   $handler->display->display_options['fields']['field_article_banner_body']['table'] = 'field_data_field_article_banner_body';

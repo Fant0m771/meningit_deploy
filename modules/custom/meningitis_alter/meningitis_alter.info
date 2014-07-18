@@ -1,0 +1,4 @@
+name = Meningitis Alter
+description = Alter functions
+package = meningitis
+core = 7.x
