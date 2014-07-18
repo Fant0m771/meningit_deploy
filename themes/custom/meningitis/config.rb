@@ -56,3 +56,4 @@ line_comments = false
 #   scss may not have changed, since we want the CSS to be compressed and have
 #   the debug info removed.
 sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
+asset_cache_buster :none
